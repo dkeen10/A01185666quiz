@@ -39,6 +39,10 @@ function updateMovieHistory(movie) {
             Object.keys(myMovies).map(function (key) {
                 return `<tr><td>${key}</td><td style='text-align: right;'>${myMovies[key]}</td></tr>`           
                 }).join("")
+                // rules for .map: give it an array (like object.keys(myMovies)) and a transformaton function (function (key) {blabla})
+                //  Typically in js map just puts the function diretly inline. could instead do array.map(transformationFunction)
+                // transformationFunction() {
+                //      blabla        }        
         }
     </table>
     `;
