@@ -1,6 +1,6 @@
 # A01185666quiz
    
-    Q2: Is the keyword "fixes" the only way to auto-close an issue from a PR 
+    Q1: Is the keyword "fixes" the only way to auto-close an issue from a PR 
     (pull request). Is there other keywords that can accomplish the same thing?
     
     There are other keywords to auto-close an issue including:
@@ -16,14 +16,14 @@
 
     
     
-    Q3: Do you have to create a new PR EVERYTIME you want to close an issue,
+    Q2: Do you have to create a new PR EVERYTIME you want to close an issue,
     or is it possible to close multiple issues within a single PR? If so, 
     how?
     
     You can mention several issues in one PR comment.  For example, in the comments of a PR you can say: fixes #1, fixes #2, fixes #3. 
     
     
-    Q4: Provide an example of using map that is different from the one I have done.
+    Q3: Provide an example of using map that is different from the one I have done.
     Your example must use map both as a named function declaration and with an
     anonymous function. 
     
@@ -44,3 +44,6 @@
     as a callback function.
     
     refer to app.js
+    
+    
+    
